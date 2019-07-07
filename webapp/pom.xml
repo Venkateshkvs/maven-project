@@ -19,6 +19,18 @@
     <finalName>${project.artifactId}</finalName>
 
     <plugins>
+     
+     <plugin>
+     
+     <configuration>
+  				<source>1.8</source>
+  				<target>1.8</target>
+  			</configuration>
+     
+     
+     
+     </plugin>    
+     
       <plugin>
         <groupId>org.mortbay.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
